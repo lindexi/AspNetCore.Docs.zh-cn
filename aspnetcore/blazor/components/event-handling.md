@@ -105,7 +105,7 @@ UI 中的该复选框更改时，以下代码调用 `CheckChanged` 方法：
 <button @onclick="@(e => Console.WriteLine("Hello, world!"))">Say hello</button>
 ```
 
-关闭附加值通常很方便，例如在循环访问一组元素时。 下面的示例创建了三个按钮。在 UI 中选中这些按钮时，每个按钮都调用 `UpdateHeading`传递事件参数 (<xref:Microsoft.AspNetCore.Components.Web.MouseEventArgs>) 和其按钮编号 (`buttonNumber`)：
+关联附加值通常很方便，例如在循环访问一组元素时。 下面的示例创建了三个按钮。在 UI 中选中这些按钮时，每个按钮都调用 `UpdateHeading`传递事件参数 (<xref:Microsoft.AspNetCore.Components.Web.MouseEventArgs>) 和其按钮编号 (`buttonNumber`)：
 
 ```razor
 <h2>@message</h2>
